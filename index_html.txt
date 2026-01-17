@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Plastic Waste System</title>
+</head>
+<body style="font-family: Arial; text-align: center; background-color: #f2f2f2;">
+    <h1>Smart Plastic Waste Management System</h1>
+    <form action="/check" method="post">
+        <label>Enter Plastic Type (e.g., PET, HDPE, PVC):</label><br><br>
+        <input type="text" name="plastic_type" required>
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html
